@@ -1,0 +1,24 @@
+/* PathLeaderboard.css */
+
+* {
+  /* background-image: url(./images/genesys.jpg); */
+  /* background-color: rgba(255, 0, 0, 0.5); */
+}
+.path-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.path-item {
+  cursor: pointer;
+  padding: 8px;
+}
+
+.path-item:hover {
+  background-color: #f0f0f0;
+}
+
+.selected {
+  background-color: #007bff;
+  color: white;
+}
